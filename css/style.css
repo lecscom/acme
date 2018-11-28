@@ -1,7 +1,6 @@
 body{
-  font-family: arial;
+  font-family: arial, Roboto;
 }
-
 
 .container{
   width: 80%;
@@ -9,66 +8,65 @@ body{
   overflow: hidden;
 }
 
+/* ###### Start Header ###### */
 header{
   width: 100%;
   height: 100px;
   background: #2E3A41;
   border-bottom: 3px solid red;
-
 }
 
-.logo{
-width: 60%;
-height: 100px;
-float: left;
-}
-
-  .logo_text{
-    padding-top: 10px;
+  .logo{
+  width: 60%;
+  height: 100px;
+  float: left;
   }
 
+    .logo_text{
+    padding-top: 10px;
+    }
+
     .logo_text1{
-      color: red;
+    color: red;
     }
 
     .logo_text2{
-      color: white;
+    color: white;
     }
 
-.nav{
+  .nav{
   width: 40%;
   height: 100px;
   float: right;
-
-}
-
-.menu_nav ul{
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
   }
 
-  .menu_nav ul li{
-    float: left;
-  }
+    .menu_nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    float: right;
+    }
 
-  .menu_nav ul li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-    text-decoration: none;
-    font-weight: bold;
+      .menu_nav ul li{
+      float: left;
+      }
 
+      .menu_nav ul li a{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      }
 
-  }
+      .menu_nav ul li a:hover{
+      color: #E4401B;
+      }
+/* ###### End Header ###### */
 
-  .menu_nav ul li a:hover{
-    color: #E4401B;
-  }
-
-
+/* ###### Start Home ###### */
 #home{
   width: 100%;
   height: 400px;
@@ -89,7 +87,9 @@ float: left;
     text-align: center;
     font-size: 15px;
   }
+/* ###### End Home ###### */
 
+/* ###### Start Suscribe ###### */
 #suscribe{
   width: 100%;
   height: 100px;
@@ -100,7 +100,6 @@ float: left;
     width: 60%;
     height: 100px;
     float: left;
-
   }
 
     .suscriber_text1{
@@ -108,13 +107,35 @@ float: left;
       padding-top: 15px;
     }
 
-
   .suscriber_form{
     width: 40%;
     height: 100px;
     float: right;
+    padding-top: 25px;
 }
 
+    .suscriber_form form{
+      float: right;
+    }
+
+      input[type=text] {
+        padding: 4px;
+        height: 25px;
+        width: 250px;
+      }
+
+      input[type=submit] {
+        height: 38px;
+        background: #E4401B;
+        border: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: white;
+        cursor: pointer;
+      }
+/* ###### End Suscribe ###### */
+
+/* ###### Start Icons ###### */
 #icons{
   width: 100%;
   height: 300px;
@@ -144,7 +165,9 @@ float: left;
     text-align: center;
     padding-top: 40px;
   }
+/* ###### End Icons ###### */
 
+/* ###### Start Footer ###### */
 footer{
   width: 100%;
   height: 100px;
@@ -155,5 +178,5 @@ footer{
     text-align: center;
     color: white;
     padding-top: 25px;
-
   }
+/* ###### End Footer ###### */
