@@ -17,52 +17,49 @@ header{
 }
 
   .logo{
-  width: 60%;
-  height: 100px;
-  float: left;
+    width: 60%;
+    height: 100px;
+    float: left;
   }
 
-    .logo_text{
-    padding-top: 10px;
+    .logo h1{
+      padding-top: 10px;
+      color: white;
     }
 
-    .logo_text1{
-    color: red;
-    }
-
-    .logo_text2{
-    color: white;
+    .logo h1 span.highlight{
+      color: red;
     }
 
   .nav{
-  width: 40%;
-  height: 100px;
-  float: right;
+    width: 40%;
+    height: 100px;
+    float: right;
   }
 
     .menu_nav ul{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    float: right;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+      float: right;
     }
 
       .menu_nav ul li{
-      float: left;
+        float: left;
       }
 
       .menu_nav ul li a{
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-      text-decoration: none;
-      font-weight: bold;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+        text-decoration: none;
+        font-weight: bold;
       }
 
       .menu_nav ul li a:hover{
-      color: #E4401B;
+        color: #E4401B;
       }
 /* ###### End Header ###### */
 
@@ -75,14 +72,14 @@ header{
   background-position: center;
 }
 
-  .home_text1{
+  .home_title{
     color: white;
     text-align: center;
     font-size: 40px;
     padding-top: 100px;
   }
 
-  .home_text2{
+  .home_subtitle{
     color: white;
     text-align: center;
     font-size: 15px;
